@@ -1,0 +1,129 @@
+*{
+    list-style: none;
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+.subtit{
+    width: 75%;
+    margin-top: -45px;
+}
+
+.subtituloPage{
+    float: right;
+    margin-top: -25px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    
+}
+
+.lineS{
+    margin-top: 120px;
+}
+
+#box{
+    margin-top: 30px;
+    width: 75%;
+}
+
+.menu_User{
+    float: right;
+    position: relative;
+    margin-top: -620px;
+    color: #fff;
+    width: 20%;    
+}
+
+.menu_User h4{
+    text-align: right;
+    letter-spacing: 1.5px;
+}
+
+.menu_use li{
+    margin-top: 20px;
+    text-align: right;
+}
+
+.menu_use a{
+    letter-spacing: 1.5px;
+    color: #fff;
+    
+}
+
+.menu_use a:hover{
+    color: #FF1C0B;
+}
+
+#passwords, .perfil{
+    height: 50px;
+    margin-top: 30px;
+}
+
+#passwords label, .perfil label{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 40px;
+    text-align: right;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+
+#acordeon .contenido{
+    height: 450px;
+}
+
+.perfil, #passwords{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.perfil input[type=text], .perfil input[type=date]{
+    margin-top: -70px;
+    margin-bottom: 10px;
+    display: block;
+    float: right;
+    width: 45%;
+    border-radius: 5px;
+    border: solid 0.5px #FF1C0B;
+    margin-right: 25px;
+}
+
+#passwords input[type=password]{
+    margin-top: -70px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    display: block;
+    float: right;
+    width: 45%;
+    border-radius: 5px;
+    border: solid 0.5px #FF1C0B;
+}
+
+input[type=submit], button[type=submit]{
+    margin-top: 10px;
+    margin-right: 25px;
+    float: right;
+    width: 30%;
+    padding: 12px;
+    height: 40px !important;
+    text-transform: uppercase;
+    padding-top: 12px;
+    background-color: #FF1C0B;
+    color: #fff;
+}
+
+button[type=submit]:hover{
+    background-color: rgb(179, 179, 179);
+    color: #FF1C0B;
+}
+
+.mensaje1, .mensaje2, .mensaje3{
+    font-size: 12pt;
+    margin-top: 20px;
+    color: #FF1C0B;
+    text-shadow: 1px 1px 2px #000;
+    text-transform: none;
+    text-align: right;
+    margin-bottom: 20px;
+}

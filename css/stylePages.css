@@ -1,0 +1,97 @@
+/* VideoJuegos Pagina Html */
+
+.subtit{
+    width: 75%;
+    margin-top: -45px;
+}
+
+.subtituloPage{
+    float: right;
+    margin-top: -25px;
+    color: #fff;
+    
+}
+
+.lineS{
+    margin-top: 120px;
+}
+
+#noticias h3{
+    text-align: right;
+    margin-top: -1995px;
+    color: #fff;
+    position: static;
+}
+
+#videos{    
+    width: 20%;
+    float: right;
+    text-align: right;
+    margin-top: -1515px;
+    color: #fff;
+}
+
+#videos video{
+    width: 220px;
+    margin-top: 10px;
+}
+
+#form_contacto{
+    margin-top: 45px;
+}
+
+.separacion{
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;    
+}
+
+.textos{
+    width: 30%;    
+    color: #fff;          
+    padding: 5px 15px;
+    text-justify:distribute-all-lines;    
+    display: inline;    
+    float: left;
+    text-align: right;
+}
+
+.ingresar{
+    width: 50%;
+    margin-left: 250px;
+    display: block;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    
+}
+#enviar{
+    margin: 12px;
+    padding: 8px;
+    width: 120px;
+    margin-left: 675px;
+    background: #FF1C0B;
+    color: #fff;
+    border: none;
+}
+
+#enviar:hover{
+    transition: ease all 0.3;
+    color: #FF1C0B;
+    background: #fff;
+}
+
+
+
+footer{
+    background: rgba(255, 0, 0, 0.5);
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+

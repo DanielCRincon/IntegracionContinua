@@ -1,0 +1,202 @@
+.resumen{
+    float: right;
+    width: 20%;
+    height: 330px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 45px;
+}
+
+.contentResumen h4{
+    color: #FF1C0B;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.infoResumen{
+    display: block;
+    width: 90%;
+}
+.infoResumen ul{
+    margin-bottom: 45px;
+}
+
+
+.infoResumen ul li{
+    display: inline;   
+}
+
+.infoResumen ul .subtitulo, .total ul .subtitulo{
+    width: 50%;
+    float: left;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+.infoResumen ul .valor, .total ul .valor{
+    width: 50%;
+    margin-top: -5px;
+    display: inline;
+    float: right;    
+    padding: 5px;
+    margin-bottom: 5px;
+      
+}
+
+.hr{
+    width: 100%;
+    margin-left: 5px;    
+    margin-bottom: 30px;
+    margin-top: 45px;
+    border-color: #FF1C0B;
+}
+
+.total{
+    width: 90%;
+}
+
+.botonPagar button{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #FF1C0B;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15pt;
+}
+
+.botonPagar button:hover{
+    color: #FF1C0B;
+    background:#fff;
+    border: solid #FF1C0B;
+}
+
+.contenido{
+    width: 75%;    
+    margin-top: 45px; 
+    /* height: auto;   */
+}
+.cabecera{
+    width: 100%;    
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px; 
+    
+}
+
+.cabecera h4{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+
+input[type=checkbox] + label{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type=checkbox]:checked{
+    color:#FF1C0B;
+  }
+
+  label{
+      margin-left: 4px;      
+  }
+  .productos{
+    width: 100%;    
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 30px;  
+    height: 345px; 
+    position: relative; 
+  }
+
+  .hr1{
+      margin-top: 15px;
+      border: .5px solid #FF1C0B;
+  }
+  .imagen{
+      width: 170px;
+      margin: 10px; 
+      margin-top: 10px;  
+      position: absolute;   
+  }
+
+  .productos .info{
+      width: 70%;      
+      position:absolute;
+      margin-left: 200px;
+      margin-top: 20px;
+      display: inline-block;
+  }
+
+  .productos .info p{
+      display: inline;
+  }
+
+  input[type=number]{
+      width: 50px;
+      height: 30px;
+      display: inline-block;
+      position: relative;
+      margin-left: 50px;
+      border: 1px solid #FF1C0B;
+      padding: 10px;
+  }
+
+  input[type=text]{
+      width: 60px;
+      padding: 8px;
+      display: inline;
+      margin-left: 55px;
+      border: 1px solid #FF1C0B;
+  }
+
+  .informacion{
+    margin-top: 50px;
+    display: block;
+    margin-left: 20px;
+    
+      
+  }
+
+  .icon-bin{
+      color: #FF1C0B;
+      margin-left: 80px;
+      font-size: 24pt;
+      top: 9px;
+      position: relative;
+  }
+
+  .icon-bin:hover{
+      color: #fff;
+      padding: 5px;
+      background: #FF1C0B;
+  }
+
+  .label{
+      display: inline;
+      margin-left: 45px;
+      margin-top: 50px;
+  }
+
+  .hr2 {
+      margin-top: 45px;
+      border: .5px solid #FF1C0B;
+  }
+
+  footer{
+      position: static;
+  }
+
+  

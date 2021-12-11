@@ -1,0 +1,88 @@
+.subtit{
+    width: 75%;
+    margin-top: -45px;
+}
+
+.subtituloPage{
+    float: right;
+    margin-top: -25px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    
+}
+
+.lineS{
+    margin-top: 120px;
+}
+
+#videos{    
+    width: 20%;
+    margin-top: -23px;    
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    margin-left: 970px;
+}
+
+#videos h3{
+    text-align: right;
+}
+
+#videos .videos{
+    margin-top: 20px;
+}
+
+#videos video{
+    margin-top: 20px;
+    width: 220px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.contenido{
+    height: 500px;
+    width: 75%;
+}
+
+.contenido .juegos{
+    width: 30%;
+    float: left;
+    color: #fff;
+}
+
+.contenido .juegos img{
+    width: 85%;
+    height: 350px;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.contenido .informacion{
+    width: 100%;
+    margin-top: 70px;
+    color: #fff;
+    margin-left: 10px;
+    
+}
+
+.contenido .informacion h4{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+.contenido .informacion ul{
+    margin-top: 10px;
+    position: relative;
+    display: block;
+}
+
+.contenido .informacion ul li{    
+    display: inline-block;
+    background: #d9d1d0;
+    color: #000;
+    text-align: center;
+    width: 100px;
+    padding: 8px;
+    margin-left: 5px;
+}
