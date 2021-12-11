@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamma Games Store</title>
+    <!-- Estilos css -->
+    <link rel="stylesheet" type="text/css" href="../css/styleGlobal.css">
+    <link rel="stylesheet" href="../css/icon.css">
+    <link rel="stylesheet" href="../css/styleConfiguracion.css">
+
+    <!-- Jquery UI Estilos -->
+    <link rel="stylesheet" href="../js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="../js/jquery-ui-1.12.1/jquery-ui.theme.css">
+   
+</head>
+<body>
+    <section id="global">
+        <header>
+            <div id="logo">
+                <img src="../img/Logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="videojuegos.html">VIDEOJUEGOS</a></li>
+                    <li><a href="ofertas.html">OFERTAS</a></li>
+                    <li><a href="contactenos.html">CONTACTENOS</a></li>
+                </ul>
+            </nav>
+            <div id="inicioSesion">
+                <ul id="submenu">
+                    <li id="sesion"><a href="iniciarSesion.html">INICIAR SESIÓN | REGISTRARSE</a></li>
+                    <li class="imgUsuario">
+                        <a href="#">
+                            <span class="icon-user"></span></a>
+                                <ul class="desplegable">
+                                    <li><h4><a href="#">Bienvenido</a></h4></li>
+                                    <li><a href="configuracion.html">Configuración</a></li>
+                                    <li><a href="pedidos.html">Pedidos</a></li>
+                                    <li class="cerrarSesion"><a href="#">Cerrar Sesión</a></li> 
+                                </ul> 
+                    <li class="carritoCompras"><a href="carritoCompras.html"><span class="icon-cart"></span></span></a></li>
+                </ul>
+            </div>
+            <hr class="linea" />
+           
+            <div class="clearfix"></div>
+        </header>
+          <!-- busqueda -->
+          <div id="search">
+            <div class="basica">
+                <input type="search" name="busquedaBasica" id="busquedaBasica" placeholder="Búsqueda" />
+                <div id="searchAvance">
+                    <select name="genero" id="genero" class="selectores">
+                        <option value="#">Género</option>
+                        <option value="acción">Acción</option>
+                        <option value="aventuras">Aventuras</option>
+                        <option value="conducción">Conducción</option>
+                        <option value="deportes">Deportes</option>
+                        <option value="estrategía">Estrategía</option>
+                        <option value="horror">Horror</option>
+                        <option value="rpg">RPG</option>
+                        <option value="simuladores">Simuladores</option>
+                        <option value="supervivencia">Supervivencia</option>
+                        <option value="sigilo">Sigilo</option>                        
+                        <option value="otros">Otros</option>
+                    </select>
+
+                    <select name="idioma" id="idioma" class="selectores">
+                        <option value="#">Idioma</option>
+                        <option value="inglés">Inglés</option>
+                        <option value="español">Español</option>
+                        <option value="frances">Frances</option>
+                        <option value="portugués">Portugués</option>
+                        <option value="italiano">Italiano</option>
+                    </select>
+
+                    <select name="consola" id="consola" class="selectores">
+                        <option value="#">Consola</option>
+                        <option value="ps5">PS5</option>
+                        <option value="ps4">PS4</option>
+                        <option value="ps3">PS3</option>
+                        <option value="ps2">PS2</option>
+                        <option value="NWii">Nintendo Wii</option>
+                        <option value="NSwitch">Nintendo Switch</option>
+                        <option value="N3ds">Nintendo 3ds</option>
+                        <option value="xbox360">Xbox 360</option>
+                        <option value="xboxOne">Xbox One</option>
+                        <option value="pc">PC</option>    
+                        <option value="mac">MAC</option>                    
+                    </select>
+                </div>
+                <button class="ButtonSearch"><span class="icon-search"></span>Buscar</button>
+                <button id="filters"><span class="icon-search"></span>Buscar</button>
+                <button class="avanzada">Búsqueda Avanzada</button>
+                <button class="oculto">Ocultar Búsqueda avanzada</button>
+            </div> 
+        </div> 
+        <div class="content">
+            <div class="subtit">
+                <h3 class="subtituloPage">configuración</h3>
+                <hr class="lineS">
+            </div>            
+            <div id="box">
+                <div id="acordeon">
+                    <h3>perfil</h3>
+                    <div class="contenido">
+                        <div class="perfil">
+                            <label for="">* Usuario:</label>
+                            <input type="text" id="usuario" disabled>
+
+                            <label for="">* Nombre:</label>
+                            <input type="text" id="nombre" disabled>
+
+                            <label for="">* Correo elétronico:</label>
+                            <input type="text" id="email" disabled>
+
+                            <label for="">* Genero:</label>
+                            <input type="text" id="genero" disabled>
+
+                            <label for="">* Fecha de Nacimiento:</label>
+                            <input type="date" name="" id="nacimiento" disabled>
+
+                            <input type="submit" value="Actualizar" id="btnActualizar">
+                            <input type="submit" value="Guardar" id="btnGuardar">
+                            <div class="clearfix"></div>
+                            <div class="mensaje1">
+                                <p>Se ha actualizado el perfil con exito</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Cambiar Contraseña</h3>
+                    <div class="contenido">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, expedita tempora vel nobis quos dolorum saepe cupiditate eveniet aliquam eius sapiente facere, dicta labore rem vero illo tenetur laborum? Tenetur!</p>
+                        <div id="passwords">
+                            <label for="actual">* Contraseña Actual:</label>
+                            <input type="password" name="" id="actual">
+
+                            <label for="nueva">* Contraseña Nueva:</label>
+                            <input type="password" name="" id="nueva" required>
+
+                            <label for="confirmar">* Confirmar Contraseña nueva:</label>
+                            <input type="password" name="" id="confirmar" required>
+
+                            <input type="submit" value="Cambiar" id="cambiar" required>
+                            <div class="clearfix"></div>
+                            <div class="mensaje2">
+                                <p>Se ha actualizado la contraseña con exito</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Eliminar Cuenta</h3>
+                    <div class="contenido">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa perspiciatis reprehenderit quibusdam, placeat error a iusto atque dolor, assumenda voluptate quis est molestiae? Maiores omnis rerum esse at, culpa eius.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quas, voluptates esse inventore facilis, voluptas mollitia laborum iste doloribus assumenda tempore praesentium, consequatur adipisci aperiam aliquid sit aliquam possimus labore.</p>
+                        <button type="submit" id="eliminar">Eliminar Cuenta</button>
+                        <div class="clearfix"></div>
+                        <div class="mensaje3">
+                            <p class="info">Se ha eliminado la cuenta, regresa pronto</p>
+                            <p class="info2">Gracias por quedarte</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="menu_User">
+            <div class="menu_use">
+                <h4>Menú</h4>
+                <hr>
+                <ul>
+                    <li><a href="configuracion.html">Configuración</a></li>
+                    <li><a href="pedidos.html">Pedidos</a></li>
+                    <li class="cerrarSesion"><a href="#">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+        </aside>
+        
+        </section>
+
+
+    <footer>
+        <p>TODOS LOS DERECHOS RESERVADOS - PROYECTO DE FRONT END - 2021</p>
+    </footer>
+    
+    <script src="../js/jquery-3.6.0.min.js" type="text/javascript"></script> 
+    
+    <script src="../js/searchJS.js"></script>
+    <script src="../js/userJS.js"></script> 
+    <script src="../js/configuracionJS.js"></script>
+
+    <!-- Jquery UI -->
+    <script src="../js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+</body>
+</html>
